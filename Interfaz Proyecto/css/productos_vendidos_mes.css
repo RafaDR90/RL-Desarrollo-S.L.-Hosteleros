@@ -58,72 +58,24 @@ footer {
   color: white;
 }
 
-
   /* Fin del Header */
 
-   /* Comienzo Formulario */
+  /* Comienzo Estilo Página */
 
-   input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-  }
-  
-  button:hover {
-    opacity: 0.8;
-  }
-  
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-  }
-  
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  }
-  
-  img.avatar {
-    width: 10%;
-    border-radius: 50%;
-    margin-top: 0px;
-  }
-  
-  .container {
-    padding: 16px;
-  }
-  
-  span.psw {
-    float: right;
-    padding-top: 16px;
+  #lista {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 15%;
+    background-color: white;
   }
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-
-  /* Fin Formulario */
-
-  /* Comienzo Estilos Página */
-
-  #titulo {
-    text-decoration: underline;
+  #total {
+    margin-top: 31%;
+    position: relative;
+    text-align: right;
+    margin-right: 20%;
   }
 
-  /* Fin Estilos Página */
+  /* Fin Estilo Página */

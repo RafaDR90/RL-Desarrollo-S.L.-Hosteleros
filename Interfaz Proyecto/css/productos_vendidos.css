@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-size: 200px;
-    background-image:url(./imagenes/fondo.jpg);
+    background-image:url(../imagenes/fondo.jpg);
     background-size: 300px;
   }
 
@@ -12,7 +12,7 @@ body {
     background-color: rgb(225, 255, 0);
     height: 100px;
     width: 100%;
-    background-image:url(./imagenes/fondo.jpg);
+    background-image:url(../imagenes/fondo.jpg);
     background-size: 300px;
 }
 
@@ -33,7 +33,7 @@ body {
   box-shadow: 2px 22px 26px #666666;
   text-align: center;
   margin: auto;
-  height: 583px;
+  height: 700px;
 }
 
 footer {
@@ -58,12 +58,30 @@ footer {
   color: white;
 }
 
-
   /* Fin del Header */
 
-  /* Comienzo Menú */
-  
+  /* Comienzo Estilo Página */
 
-  
+  #lista {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 15%;
+    background-color: white;
+  }
 
-  /* Fin Menú */
+  #total {
+    margin-top: 40%;
+    position: relative;
+    text-align: right;
+    margin-right: 20%;
+  }
+
+  #contador {
+    width: 300px;
+    position: relative;
+    top: 20px;
+  }
+
+  /* Fin Estilo Página */

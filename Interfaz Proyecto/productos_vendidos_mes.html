@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/productos_vendidos_mes.css">
+    <link rel="icon" href="./imagenes/restaurante.png">
+    <title>Proyecto</title>
+</head>
+<body>
+
+    <div class="header">
+        <img class="logo" src="./imagenes/logos/logo.gif">
+    </div>
+
+
+    <div class="main">
+
+        <a href="./inicio_dueño.html" target="_blank"><img class="boton_volver" src="./imagenes/flecha.png"></a>
+
+        <div id="lista">
+            <h1>Ver Total de X Producto Vendido</h1>
+            <h1>(Mes)</h1>
+
+            <form action="procesar.php" method="get">
+                <label for="productos">
+                    Productos
+                </label>
+                <input type="text" list="productos" name="productos" placeholder="Selecciona Producto">
+                <datalist id="productos">
+                    <option>Cocacola</option>
+                    <option>Fanta</option>
+                    <option>Boquerones</option>
+                    <option>Hamburguesa Cerdo</option>
+                    <option>Pinchitos</option>
+                    <option>Bocadilla Lomo</option>
+                </datalist>
+                <input type="submit" value="enviar">
+            </form>
+
+
+            <h2 id="total">Total (€):</h2>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_izquierda">RL-Desarrollo Hosterler&iacute;a</div>
+        <div class="footer_derecha">Versión 1.0</div>
+    </footer>
+
+
+      
+</body>
+</html>
