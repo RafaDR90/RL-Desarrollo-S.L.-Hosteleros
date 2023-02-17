@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 200px;
+  background-image:url(../imagenes/fondo.jpg);
+  background-size: 300px;
+}
+
+/* Comienzo del Header */
+
+.header  {
+  background-color: rgb(225, 255, 0);
+  height: 100px;
+  width: 100%;
+  background-image:url(../imagenes/fondo.jpg);
+  background-size: 300px;
+}
+
+.logo {
+  margin-left: 220px;
+  margin-top: -20px;
+}
+
+.boton_volver {
+height: 50px;
+width: 70px;
+margin-left: -1200px;
+}
+
+.main {
+width: 90%;
+background-color: lightgray;
+box-shadow: 2px 22px 26px #666666;
+text-align: center;
+margin: auto;
+height: 583px;
+}
+
+footer {
+background-color: rgb(0, 0, 0);
+text-align: center;
+height: 30px;
+}
+
+.footer_izquierda {
+float: left;
+text-align: left;
+margin-left: 12px;
+margin-top: 5px;
+color: white;
+}
+
+.footer_derecha {
+float: right;
+text-align: right;
+margin-right: 12px;
+margin-top: 5px;
+color: white;
+}
+
+.footer_derecha {
+float: right;
+text-align: right;
+margin-right: 12px;
+margin-top: 5px;
+color: white;
+}
+
+.Seleccionar_mesa{
+    position: absolute;
+    width: 20%;
+    right: 1100px;
+    top: 330px;
+}
+.mesa{
+  width: 200px;
+}
+input[type="radio"]{
+  display:none;
+  
+}
+input[type="radio"]:hover +label {
+  cursor:pointer;
+  border: solid rgba(255, 0, 0, 0.13);
+  display: inline-block;
+  border-radius: 50%;
+}
+input[type="radio"]:checked+label.mesa{
+  border: solid red;
+  display: inline-block;
+  border-radius: 50%;
+  
+}
+input[type="image"]{
+  width: 300px;
+}
+form{
+  margin-top: 30px;
+  margin-left: 450px;
+  width: 700px;
+  
+}
+
+  /* Fin del Header */
+
+  /* Comienzo Menú */
+  
+
+  
+
+  /* Fin Menú */
