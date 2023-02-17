@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: 200px;
+    background-image:url(../imagenes/fondo.jpg);
+    background-size: 300px;
+  }
+  
+  /* Comienzo del Header */
+  
+  .header  {
+    background-color: rgb(225, 255, 0);
+    height: 100px;
+    width: 100%;
+    background-image:url(../imagenes/fondo.jpg);
+    background-size: 300px;
+  }
+  
+  .logo {
+    margin-left: 220px;
+    margin-top: -20px;
+  }
+  
+  .boton_volver {
+  height: 50px;
+  width: 70px;
+  margin-left: -1200px;
+  }
+  
+  .main {
+  width: 90%;
+  background-color: lightgray;
+  box-shadow: 2px 22px 26px #666666;
+  text-align: center;
+  margin: auto;
+  height: 583px;
+  }
+  
+  footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  height: 30px;
+  }
+  
+  .footer_izquierda {
+  float: left;
+  text-align: left;
+  margin-left: 12px;
+  margin-top: 5px;
+  color: white;
+  }
+  
+  .footer_derecha {
+  float: right;
+  text-align: right;
+  margin-right: 12px;
+  margin-top: 5px;
+  color: white;
+  }
+  
+  .footer_derecha {
+  float: right;
+  text-align: right;
+  margin-right: 12px;
+  margin-top: 5px;
+  color: white;
+  }
+
+  .button {
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  h1{
+    
+    top: 100px;
+    right: 90px;
+    z-index: 4;
+    position: absolute;
+    background-color: white;
+    border: rgba(0, 0, 0, 0.403) solid;
+    width: 300px;
+    height: 550px;
+  }
+  .b1{
+    position: absolute;
+    top: 180px;
+    left: 130px;
+  }
+  .b2{
+    position: absolute;
+    top: 180px;
+    left: 360px;
+  }
+  .b3{
+    position: absolute;
+    top: 180px;
+    left: 590px;
+  }
+  .b4{
+    position: absolute;
+    top: 180px;
+    left: 820px;
+  }
+  .b5{
+    position: absolute;
+    top: 290px;
+    left: 130px;
+  }
+  .b6{
+    position: absolute;
+    top: 290px;
+    left: 360px;
+  }
+  .b7{
+    position: absolute;
+    top: 290px;
+    left: 590px;
+  }
+  .b8{
+    position: absolute;
+    top: 290px;
+    left: 820px;
+  }
+  .b9{
+    position: absolute;
+    top: 400px;
+    left: 820px;
+  }
+  .b10{
+    position: absolute;
+    top: 400px;
+    left: 130px;
+  }
+  .b11{
+    position: absolute;
+    top: 400px;
+    left: 360px;
+  }
+  .b12{
+    position: absolute;
+    top: 400px;
+    left: 590px;
+  }
+  .b13{
+    position: absolute;
+    top: 400px;
+    left: 820px;
+  }
+  .botonregistro{
+    position: absolute;
+    top: 560px;
+    left: 200px;
+    
+  }
+  .botonregistroimg{
+    width: 60%;
+  }
+  .botoneliminar{
+    position: absolute;
+    top: 560px;
+    left: 500px;
+  }
+  .botoneliminarimg{
+    width: 60%;
+  }
+  .imprimircuenta{
+    z-index: 10;
+    position: absolute;
+    top: 600px;
+    left: 1085px;
+  }
+  .imprimircuentaimg{
+    z-index: 10;
+    width: 60%;
+  }
